@@ -17,3 +17,46 @@ li {
 }
 
 /* ADD CSS BELOW */
+body {
+  font-family:"Bangers", cursive;
+  font-size:24px;
+  margin:auto;
+  width:80%;
+}
+
+h1,
+h2 {
+  text-align:center;
+  padding:1em;
+}
+
+h1 {
+  font-size:30px;
+}
+
+h2 {
+  font-size:38px;
+  text-align:left;
+}
+
+.section {
+  display:flex;
+  align-items:flex-start;
+  list-style-type:none;
+}
+
+.container {
+  background-color:lightgrey;
+  border:2px dashed grey;
+  margin:10px;
+}
+
+.imageflex {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.image {
+  max-height:100px;
+  padding:10px;
+}
